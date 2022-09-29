@@ -1,0 +1,14 @@
+<employees>
+<employee>
+<name>Irene</name><age>25</age><salary>5000</salary>
+</employee>
+<employee>
+<name>Akshay</name><age>25</age><salary>6000</salary>
+</employee>
+<employee>
+<name>krishnapriya</name><age>25</age><salary>5500</salary>
+</employee>
+<employee>
+<name>adwaith</name><age>25</age><salary>5000</salary>
+</employee>
+</employees>

@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+    text-decoration: solid;
+    text-justify: auto;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: ultra-expanded;
+    height: 100%;
+    width: 100%;
+    font: 150px;
+    position: absolute;
+    top: 50px;
+    letter-spacing: -2px;
+    text-shadow: 4px 0 10px rgba(0, 0, 0, 0.13);
+
+ 
+   
+    
+  
+
+  
+}
