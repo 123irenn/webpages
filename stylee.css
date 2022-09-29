@@ -34,21 +34,11 @@ p{
     padding-left: 25px;
     padding-right: 25px;
 }
-.categories{
-    margin: 70px ;
-}
-.col-3{
-    flex-basis: 15%;
-    min-width: 50px;
-    margin-bottom: 30px;
-}
-.col-3 img{
-    width: 50%;
 
-}
-.small-container{
-    max-width: 1080px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+div img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+
 }

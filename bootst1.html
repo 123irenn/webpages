@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <style>
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 60px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+
+      .fa:hover {
+          opacity: 0.7;
+      }
+      .fa-facebook {
+      background: #3B5998;
+      color: white;
+      }
+      .fa-instagram {
+       background: #881261;
+       color: white;
+      }
+      .fa-github{
+        background: #333333;
+        color: white;
+      }
+      .navbar {
+     background: #000000
+ }
+
+ .nav-item::after {
+     content: '';
+     display: block;
+     width: 0px;
+     height: 2px;
+     background: #fec400;
+     transition: 0.4s
+ }
+
+ .nav-item:hover::after {
+     width: 100%
+ }
+
+ .navbar-dark .navbar-nav .active>.nav-link,
+ .navbar-dark .navbar-nav .nav-link.active,
+ .navbar-dark .navbar-nav .nav-link.show,
+ .navbar-dark .navbar-nav .show>.nav-link,
+ .navbar-dark .navbar-nav .nav-link:focus,
+ .navbar-dark .navbar-nav .nav-link:hover {
+     color: #fec400
+ }
+
+ .nav-link {
+     padding: 25px 5px;
+     transition: 0.2s
+ }
+ 
+ body{
+     background-color:grey;
+     height: 100%;
+ }
+ .navbar-toggle {
+  position: relative;
+  float: right;
+  background-color: #6f5499;
+  padding: 20px;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <main id="main"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+       
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> 
+        <span class="navbar-toggler-icon"></span> 
+      </button>
+      
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="bootst1.html">
+        <img
+          src="irene.jfif"
+          max-height=50px;
+          height=50px;
+          width=auto;
+          alt="MDB Logo"
+          loading="lazy"
+        />
+      </a>
+      <!-- Left links -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="education.html">Education</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="pict.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="skills.html">skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="form.html">feedback form</a>
+        </li>
+       
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Icon -->
+      <a class="text-reset me-3" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+
+      <!-- Notifications -->
+     
+      <!-- Avatar -->
+      <div class="dropdown">
+        <a
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuAvatar"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img
+            src="OIP (2).jfif"
+            class="rounded-circle"
+            max-height=50px;
+            height=50px;
+            width=auto;
+            alt="Black and White Portrait of a Man"
+            loading="lazy"
+          />
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
+          <li>
+            <a class="dropdown-item" href="bootst1.html">My profile</a>
+          </li>
+
+          <li>
+            <a class="dropdown-item" href="success.html">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+      </nav>
+
+      <div class="row">
+    <div class="col-lg-4">
+      <div class="card mb-4">
+      <div class="card-body text-center">
+        <img src="36379.JPG" alt="avatar"
+          class="rounded-circle img-fluid" style="width: 150px;">
+        <h5 class="my-3">Irene Meriyam Jos</h5>
+        <p class="text-muted mb-1">Full Stack Developer</p>
+        <p class="text-muted mb-4">UST Trivandrum</p>
+        <div class="d-flex justify-content-center mb-2">
+          <button type="button" class="btn btn-primary">Follow</button>
+          <button type="button" class="btn btn-outline-primary ms-1">Message</button>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-4 mb-lg-0">
+      <div class="card-body p-0">
+        <ul class="list-group list-group-flush rounded-3">
+          <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+            <a href="#" class="fa fa-github"></a>
+            <p class="mb-0">123irenn</p>
+          </li>
+          
+          <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+            <a href="#" class="fa fa-instagram"></a>
+            <p class="mb-0">ireneeejos8</p>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+            
+            <a href="#" class="fa fa-facebook"></a>
+            <p class="mb-0">irenejos</p>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-8">
+    <div class="card mb-4">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm-3">
+            <p class="mb-0">Full Name</p>
+          </div>
+          <div class="col-sm-9">
+            <p class="text-muted mb-0">Irene Meriyam Jos</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-sm-3">
+            <p class="mb-0">Email</p>
+          </div>
+          <div class="col-sm-9">
+            <p class="text-muted mb-0">235888@ust.com</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-sm-3">
+            <p class="mb-0">Mobile</p>
+          </div>
+          <div class="col-sm-9">
+            <p class="text-muted mb-0">+91-8034561239</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-sm-3">
+            <p class="mb-0">Address</p>
+          </div>
+          <div class="col-sm-9">
+            <p class="text-muted mb-0">UST Main Campus,Trivandrum</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+    
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<div>
+
+  <footer class="bg-light text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="#">235888@ust.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  
+</div>
+<!-- End of .container --> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
