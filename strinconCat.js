@@ -10,7 +10,7 @@ console.log(str);
 console.log("------Searching--------");
 console.log(helloWorld.search(/hello/));
 console.log("--------------Slicing--------------");
-let fruits=["apple","orange","mango"];
+let fruits=['apple orange mango '];
 let slice=fruits.slice(5,15);
 console.log(slice);
 
