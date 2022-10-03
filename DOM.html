@@ -3,15 +3,28 @@
         <title>JavaScript getElementById() Method</title>
     </head>
     <body>
-        <p id="message">A paragraph</p>
+    <h2>Selecting Elements.</h2>
+    <p id="message">A paragraph</p>
+    <p class="intro">Hello World!</p>
+    <p class="intro">Hello!</p>
+    <p id="demo"></p>
+    <p>Hello</p>
     <script>
         const p = document.getElementById('message');
         console.log(p);
-        let elements = document.getElementsByName(name);
+        const x = document.getElementsByClassName("intro");
+        document.getElementById("demo").innerHTML = 
+        'The first paragraph (index 0) with class="intro" is: ' + x[0].innerHTML;
+        const e=document.getElementsByTagName("p");
+        document.getElementById("demo").innerHTML = 
+        'The first paragraph (index 0) with class="intro" is: ' + e.innerHTML;
+        let note = document.querySelector('.note');
+        console.log(note.parentNode);
 
     </script>
-    <input type="radio" name="language" value="JavaScript">
-    <input type="radio" name="language" value="TypeScript">
+    
+    <p class="note">This is a note!</p>
+    <p class="note">This is a class!</p>
     
     </body>
 </html>
