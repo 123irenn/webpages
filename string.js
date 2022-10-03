@@ -8,3 +8,5 @@ console.log(str.toUpperCase());
 const index=str.charAt(1);
 console.log("AtIndex:"+index);
 
+
+
