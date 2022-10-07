@@ -1,6 +1,4 @@
-const square = function (number) {
-    return number * number;
-  }
-  //console.log(square);
-  const x = square(4);
-  console.log(x);
+var res = function (a, b) {
+    return a * b;
+};
+console.log(res(12, 2));
